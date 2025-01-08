@@ -1,0 +1,47 @@
+
+* table{
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Anglès{
+      background-color: #FF99CC;
+      border: solid 2px black;
+  }
+  .Xarxes{
+      background-color: #99CCFF;
+      border: solid 2px black;
+  }
+  .FOL{
+      background-color: #FF9900;
+      border: solid 2px black;
+  }
+  .Hardware{
+      background-color: #FFCC99;
+      border: solid 2px black;
+  }
+  .Ofimàtica{
+      background-color: #FFFF99;
+      border: solid 2px black;
+  }
+  .Web{
+      background-color: #00B0F0;
+      border: solid 2px black;
+  }
+  .EIE{
+      background-color: #FFC000;
+      border: solid 2px black;
+  }
+  .Tutoria{
+      background-color: #76933C;
+      border: solid 2px black;
+  }
+  .Sistemes{
+      background-color: #CCFFCC;
+      border: solid 2px black;
+  }
+  .Tallers{
+      background-color: #FFFF00;
+      border: solid 2px black;
+  }

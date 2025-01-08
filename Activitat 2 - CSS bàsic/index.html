@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Pàgina principal</title>
+  <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+  <link rel="icon" type="image/jpg" href="../Activitat 6 - CSS SMXC/imtg/imagen-web.ico">
+</head>
+
+<body>
+    <div>
+      <header>
+        <img src="./imtg/logo-institut-sapalomera.png" alt="Logo sapalomera">
+        <h1>PÀGINA PRINCIPAL</h1>
+      </header>
+     
+      <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Pagina Principal</a></li>
+            <li><a href="html/taules.html">Horari</a></li>
+          </ul>
+      </nav>
+    </div>
+    <form id="formulari">
+      <div>
+          <fieldset>
+              <legend> Escriu el teu nom i cognom </legend>
+              
+                  <label for="fnom">Nom:</label><br>
+                  <input type="text"id="fnom nom"=fnom><br>
+                  <label for="fcognoms">Cognoms:</label><br>
+                  <input type="text" id="Icognom" Cognom="Icognom">
+      
+              <input type="date">
+          </fieldset>
+
+      <div>
+      
+          <fieldset>
+              <legend> Tria quin es el teu genere </legend>
+                      <input type="radio"id="html" name="fav_llenguatge" value="HTML">
+                      <label for="html"> Home </label><br>
+                      <input type="radio" id="css" name="fav_llenguatge"value="CSS">
+                      <label for="css">Dona</label><br>
+          </fieldset>
+      
+      </div>
+      
+      <div>
+          <fieldset>
+              <legend> Selecciona els teus paisos preferits</legend>
+  
+                  <input type="checkbox" id="france1" name="france1" value="França">
+                  <label for="france1">França</label><br>
+                  <input type="checkbox" id="spain2" name="spain2" value="España">
+                  <label for="spain2">España</label><br>
+                  <input type="checkbox" id="Portugal3" name="Portugal3" value="Portugal">
+                  <label for="Portugal">Portugal</label><br>
+                  <input type="checkbox" id="Noruega4" name="Noruega4" value="Noruega">
+                  <label for="Noruega4">Noruega</label><br>
+                  <input type="checkbox" id="Suiza5" name="Suiza5" value="Suiza">
+                  <label for="Suiza5">Suiza</label><br>
+                  <input type="checkbox" id="Belgica6" name="Belgica6" value="Belgica6">
+                  <label for="Belgica6">Belgica</label><br>
+                  <input type="checkbox" id="Suiza7" name="Suiza7" value="Suiza7">
+                  <label for="Suiza7">Suiza</label><br>
+                  <input type="checkbox" id="Polonia8" name="Polonia8" value="Polonia">
+                  <label for="Polonia8">Polonia</label><br>
+                  <input type="checkbox" id="Dinamarca9" name="Dinamarca9" value="Dinamarca">
+                  <label for="Dinamarca9">Dinamarca</label><br>
+                  <input type="checkbox" id="Irlanda10" name="Irlanda10" value="Irlanda">
+                  <label for="Irlanda10">Irlanda</label><br>
+          </fieldset>
+      
+      <div>
+              <fieldset>
+                  <legend>matricularció per el cicle d'SMX:</legend>
+                  <label for="fname">A quins mòduls ens hem matriculat? :</label><br>
+                  <input type="text" id="fname" name="fname" value=""><br>
+                  <label for="lname">Per quin motiu et vols matricular al cicle?:</label><br>
+                  <input type="text" id="lname" name="lname" value=""><br><br>
+                  <input type="submit">
+              </fieldset>
+      </div>
+      
+      </div> 
+      <div class="input-container">
+          <input type="email" name="email" placeholder="Correu">
+          <i class="fa-solid fa-envelope" ></i>
+      </div>
+      <div class="input-container">
+          <input type="tel" name="phone" placeholder="Telèfon">
+          <i class="fa-solid fa-phone" ></i>
+      </div>
+  </form>
+</body>
+</html>
